@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main()
+{ 
+    int cigars,weekend;
+    printf("eneter the no.of cigar\n");
+    scanf("%d",&cigars);
+    printf("enter 1 for weekend\t 0 for not weekend");
+    scanf("%d",&weekend);
+    if(weekend)
+    {
+        if(cigars>=40)
+        {
+            printf("true");
+        }
+        else
+        {
+            printf("fales");
+        }
+    }
+    else
+    {
+        printf("false");
+    }
+    if(cigars>=40&&cigars<=60)
+    {
+        printf("true");
+    }
+    else
+    {
+        printf("fales");
+    }    
+}
