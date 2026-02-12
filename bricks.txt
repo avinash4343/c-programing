@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main ()
+{
+    int small,big,goal;
+    printf("enter the number of small bricks \n:");
+    scanf("%d,&small");
+    printf("enter the number of big bricks \n:");
+    scanf("%d,&big");
+     printf("enter the goal in inches \n:");
+     scanf("%d,goal");
+     int req=goal/5;
+     return 0;
+}
